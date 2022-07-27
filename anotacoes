@@ -1,0 +1,26 @@
+# Importar Base de dados
+# Visualizar a base de dados
+# Entender as informações que você tem disponível
+# Descobrir os erros da base de dados
+# Tratamento de dados (resolver os erros), informações vazias
+# Análise Inicial dos dados
+# Descobrir os motivos do cancelamento
+
+Para excluir coluna:
+usar o comando drop()
+
+axis = 0 -> eixo da linha
+axis = 1 -> eixo da coluna
+
+Comandos:
+.drop(nome, axis)
+.info()
+.to_numeric(coluna, errors='coerce')
+.dropna(how = all ou any, axis) -> Dropa os valores vazios
+.value_counts(normalize=True)
+.bar/line/histogram(tabela, x=, color=, text_auto=True)
+tabela.columns
+.show()
+
+# instalar o plotly para criar gráficos
+import plotly.express 
